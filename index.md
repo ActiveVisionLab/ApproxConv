@@ -2,7 +2,8 @@
 layout: index
 title: "Approximating Continuous Convolutions for Deep Network Compression"
 ---
-![Overview Image](images/teaser.png)
+
+<img src="images/teaser.png" alt="Teaser image" width="40%">
 
 This is the landing page for paper **Approximating Continuous Convolutions for Deep Network Compression**.
 
