@@ -1,0 +1,14 @@
+title: "Approximating Continuous Convolutions for Deep Network Compression"
+description: A network compression method using cosine and cheybshev series.
+url: approxconv.active.vision
+signoff: Theo W. Costain
+
+links:
+  - name: <strong>AVLCode</strong>
+    url: https://code.active.vision
+    external: true
+  - name: <strong>GitHub</strong>
+    url: https://github.com/ActiveVisionLab/ApproxConv
+    external: true
+
+permalink: pretty
