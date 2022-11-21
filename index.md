@@ -3,7 +3,7 @@ layout: index
 title: "Approximating Continuous Convolutions for Deep Network Compression"
 ---
 
-<img src="images/teaser.png" alt="Teaser image" width="40%">
+<img src="images/teaser.png" alt="Teaser image" width="40%" style="display: block;margin-left: auto;margin-right: auto;">
 
 This is the landing page for paper **Approximating Continuous Convolutions for Deep Network Compression**.
 
