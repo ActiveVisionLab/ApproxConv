@@ -34,8 +34,8 @@ BiBTeX:
 @InProceedings{costain2022approximating,
     title={Approximating Continuous Convolutions for Deep Network Compression},
     author={Theo W. Costain and Victor A. Prisacariu},
-      booktitle = {BMVC},
-      month = {November},
-      year = {2022}
+    booktitle = {BMVC},
+    month = {November},
+    year = {2022}
 }
 ```
