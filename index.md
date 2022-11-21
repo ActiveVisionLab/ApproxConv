@@ -18,6 +18,10 @@ We show that our method is able to compress existing deep network models by half
 1.86% accuracy.
 Further, we demonstrate that our method is compatible with other compression methods like quantisation
 allowing for further reductions in model size.
+
+## Presentation Video
+<video controls="" src="assets/presentation.mp4" width="100%"></video>
+
 ## Code
 
 The code for reproducing results in the paper can be obtained from the [GitHub repository](https://github.com/ActiveVisionLab/ApproxConv).
