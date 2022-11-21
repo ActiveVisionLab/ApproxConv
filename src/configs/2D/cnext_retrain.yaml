@@ -1,0 +1,13 @@
+name: "ConvNext_tiny_retrain"
+logging:
+  out_dir: log/search
+  log_every: 5
+model:
+  # network: convnext_tiny
+  network: resnet18
+  type: IMAGENET
+  operator: CHEBCONV2D
+pl:
+  max_epochs: 5
+training:
+  lr: 5e-5

@@ -1,0 +1,6 @@
+name: "ResNet18_ImageNet-Baseline"
+logging:
+  out_dir: log/imnet
+model:
+  type: IMAGENET
+  operator: CONV2D

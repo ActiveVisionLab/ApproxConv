@@ -1,0 +1,13 @@
+name: "ResNet20_CIFAR_Full"
+logging:
+  out_dir: log/cifar
+model:
+  type: CIFAR10
+  operator: CONV2D
+  orders: [-1]
+training:
+  milestones: [91, 137]
+  lr: 0.1
+pl:
+  max_steps: 32000
+  val_every: 20

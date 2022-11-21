@@ -1,0 +1,3 @@
+name: "ResNet18_ImageNet_Exhaustive_Search"
+logging:
+  out_dir: log/search/imnet-res18

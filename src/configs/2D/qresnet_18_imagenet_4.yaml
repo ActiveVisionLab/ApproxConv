@@ -1,0 +1,7 @@
+name: "QResNet18_Imagenet"
+logging:
+  out_dir: log/imnet
+model:
+  bit: 4
+  operator: QCOSCONV2D
+  network: q_resnet18

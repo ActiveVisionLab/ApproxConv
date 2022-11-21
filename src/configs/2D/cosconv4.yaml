@@ -1,0 +1,7 @@
+name: "ResNet18_ImageNet-CosConv-10"
+logging:
+  out_dir: log/imnet
+model:
+  type: IMAGENET
+  operator: COSCONV2D
+  orders: [6, [2, 2], [2, 2], [2, 2], [2, 2]]

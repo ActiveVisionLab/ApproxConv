@@ -1,0 +1,10 @@
+name: "ConvNeXt_tiny_ImageNet-CosConv"
+logging:
+  out_dir: log/imnet
+model:
+  type: IMAGENET
+  network: convnext_tiny
+  operator: COSCONV2D
+  # orders: [4, [7, 7, 7], [6, 6, 6], [5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5]]
+  orders: [4, [7, 7, 7], [7, 7, 7], [7, 7, 7, 7, 7, 7, 7, 7, 7], [7, 7, 7]]
+  # orders: [4, [6, 6, 6], [6, 6, 6], [6, 6, 6, 6, 6, 6, 6, 6, 6], [6, 6, 6]]

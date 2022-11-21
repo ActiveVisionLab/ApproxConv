@@ -1,0 +1,8 @@
+name: "ResNet20_CIFAR_Retrain_Search_gauss"
+logging:
+  out_dir: log/search/
+pl:
+  max_epochs: 5
+model:
+  operator: FRACSRFCONV2D
+  model: resnet20

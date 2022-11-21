@@ -1,0 +1,3 @@
+[submodule "src/libs/quantization"]
+	path = src/libs/quantization
+	url = git@github.com:ActiveVisionLab/Quantization.git

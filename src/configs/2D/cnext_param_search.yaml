@@ -1,0 +1,5 @@
+name: "ConvNext_tiny_parameterised_search"
+logging:
+  out_dir: log/search/cnext_t_param
+model:
+  network: convnext_tiny

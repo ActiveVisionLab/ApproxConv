@@ -1,0 +1,5 @@
+name: "QResNet18_Imagenet_ur"
+logging:
+  out_dir: log/imnet
+model:
+  bit: 6

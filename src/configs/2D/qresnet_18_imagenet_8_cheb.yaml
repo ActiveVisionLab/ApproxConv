@@ -1,0 +1,7 @@
+name: "QResNet18_Imagenet_cheb"
+logging:
+  out_dir: log/imnet
+model:
+  bit: 8
+  operator: QCHEBCONV2D
+  network: q_resnet18

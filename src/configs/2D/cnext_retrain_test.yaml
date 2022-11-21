@@ -1,0 +1,12 @@
+name: "ConvNext_tiny_retrain_test"
+logging:
+  out_dir: log/imnet/cnext_t_rtt
+  log_every: 5
+model:
+  network: convnext_tiny
+  type: IMAGENET
+  orders: [-1, -1]
+pl:
+  max_epochs: 30
+training:
+  lr: 5e-5

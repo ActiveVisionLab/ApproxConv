@@ -1,0 +1,5 @@
+name: "QResNet18_ImageNet"
+logging:
+  out_dir: log/cifar
+model:
+  bit: 8

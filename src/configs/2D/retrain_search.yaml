@@ -1,0 +1,8 @@
+name: "CNeXt_ImageNet_Retrain_Search_cheb"
+logging:
+  out_dir: log/search/
+pl:
+  max_epochs: 5
+model:
+  operator: CHEBCONV2D
+  network: convnext_tiny
